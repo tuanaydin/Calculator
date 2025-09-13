@@ -10,7 +10,8 @@ void deneme(int x, int y, char op) {
     } else {
         printf("Gecersiz islem: %c\n", op);
     }
-    //deneme2();
+
+    ///deneme 3
 }
 
 int is_func_valid(char op) {
