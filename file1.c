@@ -24,4 +24,4 @@ int is_func_valid(char op) {
         default:
             return 0;
     }
-}
+} //deneme
