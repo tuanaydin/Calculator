@@ -1,5 +1,11 @@
 {
     "files.associations": {
-        "hvl2.h": "c"
+        "hvl2.h": "c",
+        "file2.h": "c",
+        "stdio.h": "c",
+        "donusum2.h": "c",
+        "donusum1.h": "c",
+        "file3.h": "c",
+        "donusum3.h": "c"
     }
 }
