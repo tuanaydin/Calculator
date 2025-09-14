@@ -4,10 +4,10 @@
 int main() {
     int a = 10, b = 5;
 
-    hesapla(a, b, '+');
-    hesapla(a, b, '-');
-    hesapla(a, b, '*');
-    hesapla(a, b, '/');
+    dort_islem(a, b, '+');
+    dort_islem(a, b, '-');
+    dort_islem(a, b, '*');
+    dort_islem(a, b, '/');
 
     return 0;
 }

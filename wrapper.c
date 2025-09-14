@@ -1,5 +1,5 @@
 #include "file1.h"
 
-void hesapla(int x, int y, char op) {
+void dort_islem(int x, int y, char op) {
     deneme(x, y, op);
 }

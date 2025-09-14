@@ -1,6 +1,6 @@
 #ifndef FILE1_H
 #define FILE1_H
 
-void hesapla(int x, int y, char op);
+void dort_islem(int x, int y, char op);
 
 #endif
