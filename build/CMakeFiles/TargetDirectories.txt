@@ -1,0 +1,3 @@
+/home/yusuff/Calculator/build/CMakeFiles/hesap_makinesi.dir
+/home/yusuff/Calculator/build/CMakeFiles/edit_cache.dir
+/home/yusuff/Calculator/build/CMakeFiles/rebuild_cache.dir
