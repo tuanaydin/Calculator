@@ -11,9 +11,9 @@ void deneme(int x, int y, char op) {
         printf("Gecersiz islem: %c\n", op);
     }
 
-    ///deneme 3
+    
 }
-//deneme123
+
 int is_func_valid(char op) {
     switch (op) {
         case '+':
@@ -24,4 +24,4 @@ int is_func_valid(char op) {
         default:
             return 0;
     }
-} //deneme
+} 
