@@ -8,6 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/yusuff/Calculator/donusum1.c" "CMakeFiles/hesap_makinesi.dir/donusum1.c.o" "gcc" "CMakeFiles/hesap_makinesi.dir/donusum1.c.o.d"
+  "/home/yusuff/Calculator/donusum2.c" "CMakeFiles/hesap_makinesi.dir/donusum2.c.o" "gcc" "CMakeFiles/hesap_makinesi.dir/donusum2.c.o.d"
+  "/home/yusuff/Calculator/donusum3.c" "CMakeFiles/hesap_makinesi.dir/donusum3.c.o" "gcc" "CMakeFiles/hesap_makinesi.dir/donusum3.c.o.d"
   "/home/yusuff/Calculator/file1.c" "CMakeFiles/hesap_makinesi.dir/file1.c.o" "gcc" "CMakeFiles/hesap_makinesi.dir/file1.c.o.d"
   "/home/yusuff/Calculator/file2.c" "CMakeFiles/hesap_makinesi.dir/file2.c.o" "gcc" "CMakeFiles/hesap_makinesi.dir/file2.c.o.d"
   "/home/yusuff/Calculator/file3.c" "CMakeFiles/hesap_makinesi.dir/file3.c.o" "gcc" "CMakeFiles/hesap_makinesi.dir/file3.c.o.d"

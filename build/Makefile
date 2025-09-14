@@ -129,6 +129,78 @@ hesap_makinesi/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hesap_makinesi.dir/build.make CMakeFiles/hesap_makinesi.dir/build
 .PHONY : hesap_makinesi/fast
 
+donusum1.o: donusum1.c.o
+.PHONY : donusum1.o
+
+# target to build an object file
+donusum1.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hesap_makinesi.dir/build.make CMakeFiles/hesap_makinesi.dir/donusum1.c.o
+.PHONY : donusum1.c.o
+
+donusum1.i: donusum1.c.i
+.PHONY : donusum1.i
+
+# target to preprocess a source file
+donusum1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hesap_makinesi.dir/build.make CMakeFiles/hesap_makinesi.dir/donusum1.c.i
+.PHONY : donusum1.c.i
+
+donusum1.s: donusum1.c.s
+.PHONY : donusum1.s
+
+# target to generate assembly for a file
+donusum1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hesap_makinesi.dir/build.make CMakeFiles/hesap_makinesi.dir/donusum1.c.s
+.PHONY : donusum1.c.s
+
+donusum2.o: donusum2.c.o
+.PHONY : donusum2.o
+
+# target to build an object file
+donusum2.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hesap_makinesi.dir/build.make CMakeFiles/hesap_makinesi.dir/donusum2.c.o
+.PHONY : donusum2.c.o
+
+donusum2.i: donusum2.c.i
+.PHONY : donusum2.i
+
+# target to preprocess a source file
+donusum2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hesap_makinesi.dir/build.make CMakeFiles/hesap_makinesi.dir/donusum2.c.i
+.PHONY : donusum2.c.i
+
+donusum2.s: donusum2.c.s
+.PHONY : donusum2.s
+
+# target to generate assembly for a file
+donusum2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hesap_makinesi.dir/build.make CMakeFiles/hesap_makinesi.dir/donusum2.c.s
+.PHONY : donusum2.c.s
+
+donusum3.o: donusum3.c.o
+.PHONY : donusum3.o
+
+# target to build an object file
+donusum3.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hesap_makinesi.dir/build.make CMakeFiles/hesap_makinesi.dir/donusum3.c.o
+.PHONY : donusum3.c.o
+
+donusum3.i: donusum3.c.i
+.PHONY : donusum3.i
+
+# target to preprocess a source file
+donusum3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hesap_makinesi.dir/build.make CMakeFiles/hesap_makinesi.dir/donusum3.c.i
+.PHONY : donusum3.c.i
+
+donusum3.s: donusum3.c.s
+.PHONY : donusum3.s
+
+# target to generate assembly for a file
+donusum3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hesap_makinesi.dir/build.make CMakeFiles/hesap_makinesi.dir/donusum3.c.s
+.PHONY : donusum3.c.s
+
 file1.o: file1.c.o
 .PHONY : file1.o
 
@@ -258,6 +330,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... hesap_makinesi"
+	@echo "... donusum1.o"
+	@echo "... donusum1.i"
+	@echo "... donusum1.s"
+	@echo "... donusum2.o"
+	@echo "... donusum2.i"
+	@echo "... donusum2.s"
+	@echo "... donusum3.o"
+	@echo "... donusum3.i"
+	@echo "... donusum3.s"
 	@echo "... file1.o"
 	@echo "... file1.i"
 	@echo "... file1.s"

@@ -13,6 +13,7 @@ set(SOURCES
     file3.c
     donusum1.c
     donusum2.c
+    donusum3.c
 )
 
 set(HEADERS
@@ -21,6 +22,7 @@ set(HEADERS
     file3.h
     donusum1.h
     donusum2.h
+    donusum3.h
 )
 
 add_executable(hesap_makinesi ${SOURCES} ${HEADERS})

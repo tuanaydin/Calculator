@@ -1,4 +1,10 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/hesap_makinesi.dir/donusum1.c.o"
+  "CMakeFiles/hesap_makinesi.dir/donusum1.c.o.d"
+  "CMakeFiles/hesap_makinesi.dir/donusum2.c.o"
+  "CMakeFiles/hesap_makinesi.dir/donusum2.c.o.d"
+  "CMakeFiles/hesap_makinesi.dir/donusum3.c.o"
+  "CMakeFiles/hesap_makinesi.dir/donusum3.c.o.d"
   "CMakeFiles/hesap_makinesi.dir/file1.c.o"
   "CMakeFiles/hesap_makinesi.dir/file1.c.o.d"
   "CMakeFiles/hesap_makinesi.dir/file2.c.o"
