@@ -9,5 +9,9 @@ int main() {
     dort_islem(a, b, '*');
     dort_islem(a, b, '/');
 
+  //  donusum(1, 180, 0);   // 180 derece -> radyan
+   // donusum(2, 42, 0);    // 42 ondalık -> ikilik
+
+
     return 0;
 }
