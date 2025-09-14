@@ -10,13 +10,13 @@ int main() {
     dort_islem(a, b, '/');
 
     // Derece donusumu ornegi (Celsius to Fahrenheit)
-    donusum(25, 0, 'C');
+    donusum(2, 'C');
     
     // Ondalik sayidan ikilik sayiya donusum ornegi
-    donusum(13, 0, 'B');
+    donusum(13, 'B');
     
     // Gecersiz islem ornegi
-    donusum(10, 5, 'X');
+    donusum(10, 'X');
 
 
     return 0;

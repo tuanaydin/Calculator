@@ -1,17 +1,17 @@
 #include <stdio.h>
-#include "donusum3.h"
-#define PI 3.14159265358979323846
 
-// Radyanı dereceye çeviren fonksiyon
-double rad_to_deg(double rad) {
-    return rad * (180.0 / PI);
+void rad_to_deg(float x) {
+    float deg = (x * 180 / 3.1415926535);
+    printf("rad: %f -> deg: %f\n", x, deg);
 }
-void decimal_to_binary(int decimal) {
-    if (decimal == 0) {
+
+void decimal_to_binary(float x) {
+    if (x == 0) {
         printf("Ondalik: 0 -> Ikilik: 0\n");
         return;
     }
-    
+    int decimal;
+    decimal = (int)x;
     int binary[32];
     int i = 0;
     int original = decimal;

@@ -4,9 +4,9 @@
 
 static int is_func_valid(char op);
 
-void donusum(int x, int y, char op) {
+void donusum(float x, char op) {
     if (is_func_valid(op)) {
-        internal_2_donusum(x, y, op);
+        internal_2_donusum(x, op);
     } else {
         printf("Gecersiz islem: %c\n", op);
     }

@@ -3,7 +3,7 @@
 #include "donusum3.h"
 
 
-void internal_2_donusum(int x, int y, char op) {
+void internal_2_donusum(float x, char op) {
     switch(op) {
         case 'C':
             printf("rad-Derece donusumu islemi baslatiliyor...\n");
