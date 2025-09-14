@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include "donusum3.h"
-void rad_to_deg(int celsius) {
-    int fahrenheit = (celsius * 9 / 5) + 32;
-    printf("Celsius: %d -> Fahrenheit: %d\n", celsius, fahrenheit);
-}
+#define PI 3.14159265358979323846
 
+// Radyanı dereceye çeviren fonksiyon
+double rad_to_deg(double rad) {
+    return rad * (180.0 / PI);
+}
 void decimal_to_binary(int decimal) {
     if (decimal == 0) {
         printf("Ondalik: 0 -> Ikilik: 0\n");
