@@ -30,4 +30,4 @@ void decimal_to_binary(float x) {
         printf("%d", binary[j]);
     }
     printf("\n");
-}
+}// ters yazdırı api olarak çağır
