@@ -15,7 +15,7 @@ int main() {
     donusum(params1);
     
      DonusumParams params2 = {13, 'C'};
-    donusum(params1);
+    donusum(params2);
     
    DonusumParams params3 = {13, 'X'};
     donusum(params3);

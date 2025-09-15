@@ -23,4 +23,5 @@ CMakeFiles/hesap_makinesi.dir/test.c.o: /home/yusuff/Calculator/test.c \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
  /home/yusuff/Calculator/hvl2.h /home/yusuff/Calculator/donusum1.h \
+ /home/yusuff/Calculator/donusum_types.h \
  /home/yusuff/Calculator/istatistik1.h

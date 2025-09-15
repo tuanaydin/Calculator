@@ -8,7 +8,6 @@ void internal_istatiksel(double *dizi, int boyut, char op) {
    
     switch(op) {
         case 'o':
-            kullanicya();
             sonuc = hesapla_ortalama(dizi, boyut);
             printf("Ortalama: %.2f\n", sonuc);
             break;

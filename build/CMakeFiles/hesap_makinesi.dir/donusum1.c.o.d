@@ -23,4 +23,6 @@ CMakeFiles/hesap_makinesi.dir/donusum1.c.o: \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
- /home/yusuff/Calculator/donusum1.h /home/yusuff/Calculator/donusum2.h
+ /home/yusuff/Calculator/donusum1.h \
+ /home/yusuff/Calculator/donusum_types.h \
+ /home/yusuff/Calculator/donusum2.h
