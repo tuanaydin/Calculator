@@ -5,9 +5,10 @@
 // Internal istatiksel fonksiyonu
 void internal_istatiksel(double *dizi, int boyut, char op) {
     double sonuc;
-    
+   
     switch(op) {
         case 'o':
+            kullanicya();
             sonuc = hesapla_ortalama(dizi, boyut);
             printf("Ortalama: %.2f\n", sonuc);
             break;
