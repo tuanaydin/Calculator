@@ -5,6 +5,8 @@
 int main() {
     int a = 10, b = 5;
 
+    ///deneme
+
     dort_islem(a, b, '+');
     dort_islem(a, b, '-');
     dort_islem(a, b, '*');
