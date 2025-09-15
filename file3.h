@@ -11,4 +11,5 @@ int bol(int a, int b);
   ensures (\old(b) != 0 ==> \result == \old(b));
 */
 int f(int b);
+void swap(int a, int b);
 #endif
