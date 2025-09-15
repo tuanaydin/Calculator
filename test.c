@@ -19,7 +19,7 @@ int main() {
     donusum(10, 'X');
 
 
-    
+
     double sayilar[] = {1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0};
     int boyut = 10;
     
@@ -30,16 +30,16 @@ int main() {
     printf("\n\n");
     
     // Ortalama hesaplama
-    istatiksel(sayilar, boyut, 'o');
+    istatik(sayilar, boyut, 'o');
     
     // Varyans hesaplama
-    istatiksel(sayilar, boyut, 'v');
+    istatik(sayilar, boyut, 'v');
     
     // Standart sapma hesaplama
-    istatiksel(sayilar, boyut, 's');
+    istatik(sayilar, boyut, 's');
     
     // Geçersiz işlem testi
-    istatiksel(sayilar, boyut, 'x');
+    istatik(sayilar, boyut, 'x');
 
 
 
