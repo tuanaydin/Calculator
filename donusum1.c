@@ -4,16 +4,15 @@
 
 static int is_func_valid(char op);
 
-void donusum(float x, char op) {
-    if (is_func_valid(op)) {
-        internal_2_donusum(x, op);
+void donusum(DonusumParams params) {
+    if (is_func_valid(params.op)) {
+        internal_2_donusum(params);
     } else {
-        printf("Gecersiz islem: %c\n", op);
+        printf("Gecersiz islem: %c\n", params.op);
     }
 }
 
-
-int is_func_valid(char op) {
+static int is_func_valid(char op) {
     switch (op) {
         case 'C':
         case 'B':
@@ -21,4 +20,4 @@ int is_func_valid(char op) {
         default:
             return 0;
     }
-} 
+}

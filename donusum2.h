@@ -1,6 +1,8 @@
 #ifndef DONUSUM2_H
 #define DONUSUM2_H
 
-void internal_2_donusum(float x, char op);
+#include "donusum_types.h"
+
+void internal_2_donusum(DonusumParams params);
 
 #endif

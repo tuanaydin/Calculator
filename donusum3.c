@@ -10,8 +10,8 @@ void decimal_to_binary(float x) {
         printf("Ondalik: 0 -> Ikilik: 0\n");
         return;
     }
-    int decimal;
-    decimal = (int)x;
+    
+    int decimal = (int)x;
     int binary[32];
     int i = 0;
     int original = decimal;
@@ -30,4 +30,4 @@ void decimal_to_binary(float x) {
         printf("%d", binary[j]);
     }
     printf("\n");
-}// ters yazdırı api olarak çağır
+}

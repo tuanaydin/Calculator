@@ -10,7 +10,8 @@
         "file1.h": "c",
         "istatistik1.h": "c",
         "istatistik2.h": "c",
-        "istatistik3.h": "c"
+        "istatistik3.h": "c",
+        "donusum_types.h": "c"
     },
     "C_Cpp.dimInactiveRegions": false
 }
