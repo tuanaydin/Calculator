@@ -17,5 +17,5 @@ int carp(int a, int b) {
 int bol(int a, int b) {
 
     int c =f(b);
-    return a / b;
+    return a / c;
 }
