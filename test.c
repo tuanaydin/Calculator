@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "hvl2.h"
 #include "donusum1.h"
+#include "istatistik1.h"
 int main() {
     int a = 10, b = 5;
 
@@ -30,16 +31,16 @@ int main() {
     printf("\n\n");
     
     // Ortalama hesaplama
-    istatik(sayilar, boyut, 'o');
+    istatistik(sayilar, boyut, 'o');
     
     // Varyans hesaplama
-    istatik(sayilar, boyut, 'v');
+    istatistik(sayilar, boyut, 'v');
     
     // Standart sapma hesaplama
-    istatik(sayilar, boyut, 's');
+    istatistik(sayilar, boyut, 's');
     
     // Geçersiz işlem testi
-    istatik(sayilar, boyut, 'x');
+    istatistik(sayilar, boyut, 'x');
 
 
 

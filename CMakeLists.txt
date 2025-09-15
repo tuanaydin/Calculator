@@ -14,6 +14,9 @@ set(SOURCES
     donusum1.c
     donusum2.c
     donusum3.c
+    istatistik1.c
+    istatistik2.c
+    istatistik3.c
 )
 
 set(HEADERS
@@ -23,6 +26,9 @@ set(HEADERS
     donusum1.h
     donusum2.h
     donusum3.h
+    istatistik1.h
+    istatistik2.h
+    istatistik3.h
 )
 
 add_executable(hesap_makinesi ${SOURCES} ${HEADERS})

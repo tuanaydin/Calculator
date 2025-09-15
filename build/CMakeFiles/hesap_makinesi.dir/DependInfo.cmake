@@ -14,6 +14,9 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/yusuff/Calculator/file1.c" "CMakeFiles/hesap_makinesi.dir/file1.c.o" "gcc" "CMakeFiles/hesap_makinesi.dir/file1.c.o.d"
   "/home/yusuff/Calculator/file2.c" "CMakeFiles/hesap_makinesi.dir/file2.c.o" "gcc" "CMakeFiles/hesap_makinesi.dir/file2.c.o.d"
   "/home/yusuff/Calculator/file3.c" "CMakeFiles/hesap_makinesi.dir/file3.c.o" "gcc" "CMakeFiles/hesap_makinesi.dir/file3.c.o.d"
+  "/home/yusuff/Calculator/istatistik1.c" "CMakeFiles/hesap_makinesi.dir/istatistik1.c.o" "gcc" "CMakeFiles/hesap_makinesi.dir/istatistik1.c.o.d"
+  "/home/yusuff/Calculator/istatistik2.c" "CMakeFiles/hesap_makinesi.dir/istatistik2.c.o" "gcc" "CMakeFiles/hesap_makinesi.dir/istatistik2.c.o.d"
+  "/home/yusuff/Calculator/istatistik3.c" "CMakeFiles/hesap_makinesi.dir/istatistik3.c.o" "gcc" "CMakeFiles/hesap_makinesi.dir/istatistik3.c.o.d"
   "/home/yusuff/Calculator/test.c" "CMakeFiles/hesap_makinesi.dir/test.c.o" "gcc" "CMakeFiles/hesap_makinesi.dir/test.c.o.d"
   "/home/yusuff/Calculator/wrapper.c" "CMakeFiles/hesap_makinesi.dir/wrapper.c.o" "gcc" "CMakeFiles/hesap_makinesi.dir/wrapper.c.o.d"
   )

@@ -1,5 +1,5 @@
-#ifndef FILE3_H
-#define FILE3_H
+#ifndef ISTATISTIC3_H
+#define ISTATISTIC3_H
 
 double hesapla_ortalama(double *dizi, int boyut);
 double hesapla_varyans(double *dizi, int boyut);

@@ -148,6 +148,64 @@ CMakeFiles/hesap_makinesi.dir/file3.c.o: ../file3.c \
   /usr/include/stdc-predef.h \
   ../file3.h
 
+CMakeFiles/hesap_makinesi.dir/istatistik1.c.o: ../istatistik1.c \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/features.h \
+  /usr/include/features-time64.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  ../istatistik1.h \
+  ../istatistik2.h
+
+CMakeFiles/hesap_makinesi.dir/istatistik2.c.o: ../istatistik2.c \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/features.h \
+  /usr/include/features-time64.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  ../istatistik2.h \
+  ../istatistik3.h
+
 CMakeFiles/hesap_makinesi.dir/test.c.o: ../test.c \
   /usr/include/stdc-predef.h \
   /usr/include/stdio.h \
@@ -175,16 +233,25 @@ CMakeFiles/hesap_makinesi.dir/test.c.o: ../test.c \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
   /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
   ../hvl2.h \
-  ../donusum1.h
+  ../donusum1.h \
+  ../istatistik1.h
 
 CMakeFiles/hesap_makinesi.dir/wrapper.c.o: ../wrapper.c \
   /usr/include/stdc-predef.h \
   ../file1.h
 
 
+../test.c:
+
 ../hvl2.h:
 
-../test.c:
+../istatistik3.h:
+
+../istatistik2.c:
+
+../istatistik2.h:
+
+../istatistik1.h:
 
 ../file3.c:
 
@@ -209,6 +276,8 @@ CMakeFiles/hesap_makinesi.dir/wrapper.c.o: ../wrapper.c \
 /usr/include/features-time64.h:
 
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+../istatistik1.c:
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 

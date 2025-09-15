@@ -10,7 +10,7 @@ double hesapla_ortalama(double *dizi, int boyut) {
     return toplam / boyut;
 }
 
-// Varyans hesaplama fonksiyonu
+//Varyans
 double hesapla_varyans(double *dizi, int boyut) {
     double ortalama = hesapla_ortalama(dizi, boyut);
     double varyans_toplam = 0.0;

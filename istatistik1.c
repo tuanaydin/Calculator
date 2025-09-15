@@ -5,7 +5,7 @@
 static int is_func_valid(char op);
 
 // Ana istatiksel fonksiyonu
-void istatik(double *dizi, int boyut, char op)
+void istatistik(double *dizi, int boyut, char op)
 {
     if (is_func_valid(op))
     {

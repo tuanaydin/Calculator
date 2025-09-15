@@ -181,6 +181,48 @@ CMakeFiles/hesap_makinesi.dir/donusum3.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hesap_makinesi.dir/donusum3.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yusuff/Calculator/donusum3.c -o CMakeFiles/hesap_makinesi.dir/donusum3.c.s
 
+CMakeFiles/hesap_makinesi.dir/istatistik1.c.o: CMakeFiles/hesap_makinesi.dir/flags.make
+CMakeFiles/hesap_makinesi.dir/istatistik1.c.o: ../istatistik1.c
+CMakeFiles/hesap_makinesi.dir/istatistik1.c.o: CMakeFiles/hesap_makinesi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yusuff/Calculator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/hesap_makinesi.dir/istatistik1.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hesap_makinesi.dir/istatistik1.c.o -MF CMakeFiles/hesap_makinesi.dir/istatistik1.c.o.d -o CMakeFiles/hesap_makinesi.dir/istatistik1.c.o -c /home/yusuff/Calculator/istatistik1.c
+
+CMakeFiles/hesap_makinesi.dir/istatistik1.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hesap_makinesi.dir/istatistik1.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yusuff/Calculator/istatistik1.c > CMakeFiles/hesap_makinesi.dir/istatistik1.c.i
+
+CMakeFiles/hesap_makinesi.dir/istatistik1.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hesap_makinesi.dir/istatistik1.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yusuff/Calculator/istatistik1.c -o CMakeFiles/hesap_makinesi.dir/istatistik1.c.s
+
+CMakeFiles/hesap_makinesi.dir/istatistik2.c.o: CMakeFiles/hesap_makinesi.dir/flags.make
+CMakeFiles/hesap_makinesi.dir/istatistik2.c.o: ../istatistik2.c
+CMakeFiles/hesap_makinesi.dir/istatistik2.c.o: CMakeFiles/hesap_makinesi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yusuff/Calculator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/hesap_makinesi.dir/istatistik2.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hesap_makinesi.dir/istatistik2.c.o -MF CMakeFiles/hesap_makinesi.dir/istatistik2.c.o.d -o CMakeFiles/hesap_makinesi.dir/istatistik2.c.o -c /home/yusuff/Calculator/istatistik2.c
+
+CMakeFiles/hesap_makinesi.dir/istatistik2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hesap_makinesi.dir/istatistik2.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yusuff/Calculator/istatistik2.c > CMakeFiles/hesap_makinesi.dir/istatistik2.c.i
+
+CMakeFiles/hesap_makinesi.dir/istatistik2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hesap_makinesi.dir/istatistik2.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yusuff/Calculator/istatistik2.c -o CMakeFiles/hesap_makinesi.dir/istatistik2.c.s
+
+CMakeFiles/hesap_makinesi.dir/istatistik3.c.o: CMakeFiles/hesap_makinesi.dir/flags.make
+CMakeFiles/hesap_makinesi.dir/istatistik3.c.o: ../istatistik3.c
+CMakeFiles/hesap_makinesi.dir/istatistik3.c.o: CMakeFiles/hesap_makinesi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yusuff/Calculator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/hesap_makinesi.dir/istatistik3.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hesap_makinesi.dir/istatistik3.c.o -MF CMakeFiles/hesap_makinesi.dir/istatistik3.c.o.d -o CMakeFiles/hesap_makinesi.dir/istatistik3.c.o -c /home/yusuff/Calculator/istatistik3.c
+
+CMakeFiles/hesap_makinesi.dir/istatistik3.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hesap_makinesi.dir/istatistik3.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yusuff/Calculator/istatistik3.c > CMakeFiles/hesap_makinesi.dir/istatistik3.c.i
+
+CMakeFiles/hesap_makinesi.dir/istatistik3.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hesap_makinesi.dir/istatistik3.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yusuff/Calculator/istatistik3.c -o CMakeFiles/hesap_makinesi.dir/istatistik3.c.s
+
 # Object files for target hesap_makinesi
 hesap_makinesi_OBJECTS = \
 "CMakeFiles/hesap_makinesi.dir/test.c.o" \
@@ -190,7 +232,10 @@ hesap_makinesi_OBJECTS = \
 "CMakeFiles/hesap_makinesi.dir/file3.c.o" \
 "CMakeFiles/hesap_makinesi.dir/donusum1.c.o" \
 "CMakeFiles/hesap_makinesi.dir/donusum2.c.o" \
-"CMakeFiles/hesap_makinesi.dir/donusum3.c.o"
+"CMakeFiles/hesap_makinesi.dir/donusum3.c.o" \
+"CMakeFiles/hesap_makinesi.dir/istatistik1.c.o" \
+"CMakeFiles/hesap_makinesi.dir/istatistik2.c.o" \
+"CMakeFiles/hesap_makinesi.dir/istatistik3.c.o"
 
 # External object files for target hesap_makinesi
 hesap_makinesi_EXTERNAL_OBJECTS =
@@ -203,9 +248,12 @@ hesap_makinesi: CMakeFiles/hesap_makinesi.dir/file3.c.o
 hesap_makinesi: CMakeFiles/hesap_makinesi.dir/donusum1.c.o
 hesap_makinesi: CMakeFiles/hesap_makinesi.dir/donusum2.c.o
 hesap_makinesi: CMakeFiles/hesap_makinesi.dir/donusum3.c.o
+hesap_makinesi: CMakeFiles/hesap_makinesi.dir/istatistik1.c.o
+hesap_makinesi: CMakeFiles/hesap_makinesi.dir/istatistik2.c.o
+hesap_makinesi: CMakeFiles/hesap_makinesi.dir/istatistik3.c.o
 hesap_makinesi: CMakeFiles/hesap_makinesi.dir/build.make
 hesap_makinesi: CMakeFiles/hesap_makinesi.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yusuff/Calculator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking C executable hesap_makinesi"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yusuff/Calculator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking C executable hesap_makinesi"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hesap_makinesi.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

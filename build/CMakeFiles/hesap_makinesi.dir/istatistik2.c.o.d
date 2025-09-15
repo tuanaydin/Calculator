@@ -1,5 +1,6 @@
-CMakeFiles/hesap_makinesi.dir/test.c.o: /home/yusuff/Calculator/test.c \
- /usr/include/stdc-predef.h /usr/include/stdio.h \
+CMakeFiles/hesap_makinesi.dir/istatistik2.c.o: \
+ /home/yusuff/Calculator/istatistik2.c /usr/include/stdc-predef.h \
+ /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -22,5 +23,5 @@ CMakeFiles/hesap_makinesi.dir/test.c.o: /home/yusuff/Calculator/test.c \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
- /home/yusuff/Calculator/hvl2.h /home/yusuff/Calculator/donusum1.h \
- /home/yusuff/Calculator/istatistik1.h
+ /home/yusuff/Calculator/istatistik2.h \
+ /home/yusuff/Calculator/istatistik3.h

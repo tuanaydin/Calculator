@@ -273,6 +273,78 @@ file3.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hesap_makinesi.dir/build.make CMakeFiles/hesap_makinesi.dir/file3.c.s
 .PHONY : file3.c.s
 
+istatistik1.o: istatistik1.c.o
+.PHONY : istatistik1.o
+
+# target to build an object file
+istatistik1.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hesap_makinesi.dir/build.make CMakeFiles/hesap_makinesi.dir/istatistik1.c.o
+.PHONY : istatistik1.c.o
+
+istatistik1.i: istatistik1.c.i
+.PHONY : istatistik1.i
+
+# target to preprocess a source file
+istatistik1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hesap_makinesi.dir/build.make CMakeFiles/hesap_makinesi.dir/istatistik1.c.i
+.PHONY : istatistik1.c.i
+
+istatistik1.s: istatistik1.c.s
+.PHONY : istatistik1.s
+
+# target to generate assembly for a file
+istatistik1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hesap_makinesi.dir/build.make CMakeFiles/hesap_makinesi.dir/istatistik1.c.s
+.PHONY : istatistik1.c.s
+
+istatistik2.o: istatistik2.c.o
+.PHONY : istatistik2.o
+
+# target to build an object file
+istatistik2.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hesap_makinesi.dir/build.make CMakeFiles/hesap_makinesi.dir/istatistik2.c.o
+.PHONY : istatistik2.c.o
+
+istatistik2.i: istatistik2.c.i
+.PHONY : istatistik2.i
+
+# target to preprocess a source file
+istatistik2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hesap_makinesi.dir/build.make CMakeFiles/hesap_makinesi.dir/istatistik2.c.i
+.PHONY : istatistik2.c.i
+
+istatistik2.s: istatistik2.c.s
+.PHONY : istatistik2.s
+
+# target to generate assembly for a file
+istatistik2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hesap_makinesi.dir/build.make CMakeFiles/hesap_makinesi.dir/istatistik2.c.s
+.PHONY : istatistik2.c.s
+
+istatistik3.o: istatistik3.c.o
+.PHONY : istatistik3.o
+
+# target to build an object file
+istatistik3.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hesap_makinesi.dir/build.make CMakeFiles/hesap_makinesi.dir/istatistik3.c.o
+.PHONY : istatistik3.c.o
+
+istatistik3.i: istatistik3.c.i
+.PHONY : istatistik3.i
+
+# target to preprocess a source file
+istatistik3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hesap_makinesi.dir/build.make CMakeFiles/hesap_makinesi.dir/istatistik3.c.i
+.PHONY : istatistik3.c.i
+
+istatistik3.s: istatistik3.c.s
+.PHONY : istatistik3.s
+
+# target to generate assembly for a file
+istatistik3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hesap_makinesi.dir/build.make CMakeFiles/hesap_makinesi.dir/istatistik3.c.s
+.PHONY : istatistik3.c.s
+
 test.o: test.c.o
 .PHONY : test.o
 
@@ -348,6 +420,15 @@ help:
 	@echo "... file3.o"
 	@echo "... file3.i"
 	@echo "... file3.s"
+	@echo "... istatistik1.o"
+	@echo "... istatistik1.i"
+	@echo "... istatistik1.s"
+	@echo "... istatistik2.o"
+	@echo "... istatistik2.i"
+	@echo "... istatistik2.s"
+	@echo "... istatistik3.o"
+	@echo "... istatistik3.i"
+	@echo "... istatistik3.s"
 	@echo "... test.o"
 	@echo "... test.i"
 	@echo "... test.s"

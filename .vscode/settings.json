@@ -11,5 +11,6 @@
         "istatistik1.h": "c",
         "istatistik2.h": "c",
         "istatistik3.h": "c"
-    }
+    },
+    "C_Cpp.dimInactiveRegions": false
 }
