@@ -1,7 +1,7 @@
 #include "file3.h"
 
 int topla(int a, int b) {
-    swap();
+    swap(a,b);
     return a + b;
 
 }
