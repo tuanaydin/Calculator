@@ -42,9 +42,5 @@ int main() {
     
     // Geçersiz işlem testi
     istatistik(sayilar, boyut, 'x');
-
-
-
-
     return 0;
 }
