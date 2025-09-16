@@ -11,7 +11,12 @@
         "istatistik1.h": "c",
         "istatistik2.h": "c",
         "istatistik3.h": "c",
-        "donusum_types.h": "c"
+        "donusum_types.h": "c",
+        "sstream": "c",
+        "cmath": "c",
+        "functional": "c",
+        "random": "c",
+        "type_traits": "c"
     },
     "C_Cpp.dimInactiveRegions": false
 }
