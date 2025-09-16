@@ -2,6 +2,7 @@
 #include "hvl2.h"
 #include "donusum1.h"
 #include "istatistik1.h"
+#include "exponentfunc1.h"
 int main() {
     int a = 10, b = 5;
 
@@ -44,5 +45,14 @@ int main() {
     
     // Geçersiz işlem testi
     istatistik(sayilar, boyut, 'x');
+
+
+
+///Kuvvet alma işlemleri
+    double t;
+
+    exponentfunc(KUVVET, 2.0, 3.0, &t);
+        printf("2^3 = %.2f\n", t);
+
     return 0;
 }
