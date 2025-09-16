@@ -3,6 +3,7 @@
 #include "donusum1.h"
 #include "istatistik1.h"
 #include "exponentfunc1.h"
+#include "factorfile1.h" 
 int main() {
     int a = 10, b = 5;
 
@@ -53,6 +54,36 @@ int main() {
 
     exponentfunc(KUVVET, 2.0, 3.0, &t);
         printf("2^3 = %.2f\n", t);
+
+
+
+    printf("=== Faktöriyel, Permütasyon ve Kombinasyon Hesaplamaları ===\n\n");
+    unsigned long long s = 0;
+    // Örnek: permütasyon (geçerli örnek)
+    printf("Permütasyon işlemi:\n");
+    factorgenel('P', 5, 3, &s);
+    printf("Dönen sonuç (değişkende): %llu\n\n", s);
+
+    // Örnek: faktoriyel
+    printf("Faktöriyel işlemi:\n");
+    factorgenel('F', 10, 0, &s);
+    printf("Dönen sonuç: %llu\n\n", s);
+
+    // Örnek: kombinasyon
+    printf("Kombinasyon işlemi:\n");
+    factorgenel('C', 20, 6, &s);
+    printf("Dönen sonuç: %llu\n\n", s);
+
+    // Hatalı örnek (r>n olduğu için hata verir):
+    printf("Hatalı örnek (r>n):\n");
+    factorgenel('P', 2, 3, &s);
+    printf("Dönen sonuç: %llu\n\n", s);
+
+    // Geçersiz işlem kodu örneği
+    printf("Geçersiz işlem kodu örneği:\n");
+    factorgenel('X', 5, 2, &s);
+    printf("Dönen sonuç: %llu\n\n", s);
+
 
     return 0;
 }

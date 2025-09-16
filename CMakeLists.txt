@@ -17,6 +17,13 @@ set(SOURCES
     istatistik1.c
     istatistik2.c
     istatistik3.c
+    exponentfile2.c
+    exponentwrapper.c
+    exponentfile3.c //eksik var mı kontrol et
+
+    factorfile1.c
+    factorfile2.c
+    factorfile3.c
 )
 
 set(HEADERS
@@ -29,6 +36,13 @@ set(HEADERS
     istatistik1.h
     istatistik2.h
     istatistik3.h
+    exponentfile2.h
+    exponentfunc1.h
+    exponentfile3.h //eksik var mı kontrol et
+
+    factorfile1.h
+    factorfile2.h
+    factorfile3.h
 )
 
 add_executable(hesap_makinesi ${SOURCES} ${HEADERS})
