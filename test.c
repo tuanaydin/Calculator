@@ -7,14 +7,14 @@
 int main() {
     int a = 10, b = 5;
 
-    ///deneme
+
 
     dort_islem(a, b, '+');
     dort_islem(a, b, '-');
     dort_islem(a, b, '*');
     dort_islem(a, b, '/');
 
-    // Derece donusumu ornegi (Celsius to Fahrenheit)
+ 
     DonusumParams params1 = {13, 'B'};
     donusum(params1);
     

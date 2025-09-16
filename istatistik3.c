@@ -1,15 +1,14 @@
 #include <stdio.h>
 #include "istatistik3.h"
 
-// Ortalama hesaplama fonksiyonu
+// Ortalama 
 double hesapla_ortalama(double *dizi, int boyut) {
     double toplam = 0.0;
-    /*@ 
-    loop unroll 100;
-    */
+
     for(int i = 0; i < boyut; i++) {
         toplam += dizi[i];
     }
+    kullaniciya();
     return toplam / boyut;
 }
 
@@ -26,11 +25,11 @@ double hesapla_varyans(double *dizi, int boyut) {
     return varyans_toplam / boyut;
 }
 
-// Standart sapma hesaplama fonksiyonu (basit karekök hesabı)
+// Standart sapma hesaplama 
 double hesapla_standart_sapma(double *dizi, int boyut) {
     double varyans = hesapla_varyans(dizi, boyut);
     
-    // Basit karekök hesabı (Newton-Raphson yöntemi)
+    //  karekök  
     if(varyans == 0.0) return 0.0;
     
     double tahmin = varyans / 2.0;

@@ -16,7 +16,7 @@ void decimal_to_binary(float x) {
     int i = 0;
     int original = decimal;
     
-    // Ondalik sayiyi ikilik sayiya donustur
+    // Ondalik sayiyi ikilik sayiya
     while (decimal > 0) {
         binary[i] = decimal % 2;
         decimal = decimal / 2;
@@ -24,8 +24,7 @@ void decimal_to_binary(float x) {
     }
     
     printf("Ondalik: %d -> Ikilik: ", original);
-    
-    // Ters sirada yazdir
+   
     for (int j = i - 1; j >= 0; j--) {
         printf("%d", binary[j]);
     }
