@@ -18,10 +18,10 @@ int main() {
     DonusumParams params1 = {13, 'B'};
     donusum(params1);
     
-     DonusumParams params2 = {13, 'C'};
+    DonusumParams params2 = {13, 'C'};
     donusum(params2);
     
-   DonusumParams params3 = {13, 'X'};
+    DonusumParams params3 = {13, 'X'};
     donusum(params3);
     
 
@@ -47,16 +47,63 @@ int main() {
     // Geçersiz işlem testi
     istatistik(sayilar, boyut, 'x');
 
+//------------------------------------------------------------------------------
+    printf("\n=== Üs ve Kök Hesaplamaları ===\n\n");
 
+      double result;
+    printf("Kuvvet İşlemleri:\n");
+    exponentfunc(KUVVET, 2.0, 3.0, &result);
+    printf("Sonuç değişkende: %.6f\n\n", result);
+    
+    exponentfunc(KUVVET, 5.0, 2.0, &result);
+    printf("Sonuç değişkende: %.6f\n\n", result);
 
-///Kuvvet alma işlemleri
-    double t;
+    // e^x işlemi
+    printf("Doğal Üs İşlemleri:\n");
+    exponentfunc(E_USSU, 1.0, 0.0, &result);
+    printf("Sonuç değişkende: %.6f\n\n", result);
 
-    exponentfunc(KUVVET, 2.0, 3.0, &t);
-        printf("2^3 = %.2f\n", t);
+    // Kareköker işlemleri
+    printf("Kök İşlemleri:\n");
+    exponentfunc(KAREKOK, 16.0, 0.0, &result);
+    printf("Sonuç değişkende: %.6f\n\n", result);
+    
+    exponentfunc(KUPKOK, 27.0, 0.0, &result);
+    printf("Sonuç değişkende: %.6f\n\n", result);
 
+    // Kare ve küp işlemleri
+    printf("Kare ve Küp İşlemleri:\n");
+    exponentfunc(KARE, 9.0, 0.0, &result);
+    printf("Sonuç değişkende: %.6f\n\n", result);
+    
+    exponentfunc(KUP, 3.0, 0.0, &result);
+    printf("Sonuç değişkende: %.6f\n\n", result);
 
+    // Logaritma işlemleri
+    printf("Logaritma İşlemleri:\n");
+    exponentfunc(DOGAL_LOG, 2.718, 0.0, &result);
+    printf("Sonuç değişkende: %.6f\n\n", result);
+    
+    exponentfunc(LOG10X, 100.0, 0.0, &result);
+    printf("Sonuç değişkende: %.6f\n\n", result);
+    
+    exponentfunc(LOG_TABANLI, 8.0, 2.0, &result);
+    printf("Sonuç değişkende: %.6f\n\n", result);
 
+    // N'inci kök işlemleri
+    printf("N'inci Kök İşlemleri:\n");
+    exponentfunc(NINCI_KOK, 32.0, 5.0, &result);
+    printf("Sonuç değişkende: %.6f\n\n", result);
+
+    // Hata durumları
+    printf("Hata Durumu Testleri:\n");
+    exponentfunc(KAREKOK, -4.0, 0.0, &result);
+    printf("Negatif karekök hatası\n\n");
+    
+    exponentfunc(DOGAL_LOG, 0.0, 0.0, &result);
+    printf("Sıfırın logaritması hatası\n\n");
+
+//------------------------------------------------------------------------------
     printf("=== Faktöriyel, Permütasyon ve Kombinasyon Hesaplamaları ===\n\n");
     unsigned long long s = 0;
     // Örnek: permütasyon (geçerli örnek)

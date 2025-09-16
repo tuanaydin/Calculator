@@ -42,7 +42,7 @@ typedef enum {
 #define LOG_TABANLI  EXPF_LOGB
 #define NINCI_KOK    EXPF_NTHROOT
 
-int exponentfuncdetay(exponent_op_t op, double x, double y, double* out);
+void exponentfuncdetay(exponent_op_t op, double x, double y, double* out);
 
 
 #endif // EXPONENTFILE2_H
