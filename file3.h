@@ -15,10 +15,6 @@ int bol(int a, int b);
     assumes b != 0;
     ensures \result == 1;
     assigns \nothing;
-    // Bu durumda fonksiyon çağrılmamalı; requires ile yasaklamak da bir seçenekti.
-    // Burada yalnızca modele açıklık getirmek için ayrı davranış olarak işaretliyoruz.
-    // WP bu davranışta herhangi bir garanti istemez.
-
   complete behaviors normal, undefined_case;
   disjoint behaviors normal, undefined_case;
 */

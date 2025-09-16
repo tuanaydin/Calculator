@@ -4,7 +4,9 @@
 // Ortalama hesaplama fonksiyonu
 double hesapla_ortalama(double *dizi, int boyut) {
     double toplam = 0.0;
-
+    /*@ 
+    loop unroll 100;
+    */
     for(int i = 0; i < boyut; i++) {
         toplam += dizi[i];
     }
