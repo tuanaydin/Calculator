@@ -4,8 +4,8 @@
 #include "factorfile2.h"
 #include "factorfile3.h"
 
-int factor(char op, unsigned int n, unsigned int r, unsigned long long *result) {
-    unsigned long long sonuc;
+void factor(char op, unsigned int n, unsigned int r, unsigned long long *result) {
+    unsigned long long sonuc = 0;
     int ok = 0;
     
     switch (toupper((unsigned char)op)) {
@@ -29,16 +29,15 @@ int factor(char op, unsigned int n, unsigned int r, unsigned long long *result) 
             
         default:
             printf("Geçersiz işlem kodu: '%c' (F, P veya C kullanın)\n", op);
-            if (result != NULL) *result = 0;
-            return 0;
+            break;
     }
     
-  
-    if (result != NULL && ok) {
-        *result = sonuc;
-    } else if (result != NULL) {
-        *result = 0;
+    // Sonucu result pointer'ına yaz
+    if (result != NULL) {
+        if (ok) {
+            *result = sonuc;
+        } else {
+            *result = 0;
+        }
     }
-    
-    return ok;
 }

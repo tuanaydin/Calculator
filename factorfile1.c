@@ -3,6 +3,6 @@
 #include "factorfile2.h"
 
 
-int factorgenel(char op, unsigned int n, unsigned int r, unsigned long long *result) {
-    return factor(op, n, r, result);
+void factorgenel(char op, unsigned int n, unsigned int r, unsigned long long *result) {
+    factor(op, n, r, result);
 }
